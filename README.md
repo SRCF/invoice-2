@@ -1,12 +1,6 @@
-# Invoice Boilerplate
-
-Simple automated LaTeX invoicing system for freelancers.
+# Invoice 2
 
 ## Intro
-
-Built along the lines of [cv-boilerplate](https://github.com/mrzool/cv-boilerplate) and [letter-boilerplate](https://github.com/mrzool/letter-boilerplate), this boilerplate contains the bare minimum to produce a professional-looking invoice with the least possible effort, so you can concentrate on things that matters.
-
-![preview](preview.png)
 
 The invoice content lives in `details.yml` and it's structured like so:
 
@@ -57,12 +51,6 @@ To install pandoc on Mac OS X, run `brew install pandoc`. To install it on Linux
 2. Run `make` to compile the PDF.
 
 **Note**: this template needs to be compiled with XeTeX.
-
-### Note for Windows users
-
-Although I didn't test it, you can probably use this on Windows, too. Both [Pandoc](http://pandoc.org/installing.html) and LaTeX can be installed on Windows (I recommend [MiKTeX](http://miktex.org/) for that) and you should be able to run makefiles on Windows through [Cygwin](https://www.cygwin.com/). If that's too much hassle, this command should do the trick in Powershell:
-
-    pandoc details.yml -o output.pdf --template=template.tex --pdf-engine=xelatex
 
 ## Available settings
 
